@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+main {
+  background-color: #ecf2f8; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+#testimonials {
+  display: grid;
+  grid-template-areas: 'card-1 card-1 card-2 card-5' 'card-3 card-4 card-4 card-5';
+  gap: 1rem; }
+
+.card {
+  border-radius: 10px; }
+
+#card-1 {
+  grid-area: card-1;
+  background-color: #7541c8;
+  color: #fff; }
+
+#card-2 {
+  grid-area: card-2;
+  background-color: #48556a;
+  color: #fff; }
+
+#card-3 {
+  grid-area: card-3;
+  background-color: #fff; }
+
+#card-4 {
+  grid-area: card-4;
+  background-color: #19212e;
+  color: #fff; }
+
+#card-5 {
+  grid-area: card-5;
+  background-color: #fff; }
